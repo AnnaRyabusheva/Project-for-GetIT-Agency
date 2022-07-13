@@ -21,13 +21,13 @@ public class MainClass {
         }).collect(Collectors.toList());
 
         for (int i = 0; i < list.size() - 1; i++) {
-            char[] left = list.get(i);
+            char[] repeatingCharactersInStrings = list.get(i);
             List<Integer> index = new ArrayList<>();
             index.add(i);
 
             for (int j = i + 1; j < list.size(); j++) {
-                char[] right = list.get(j);
-                if (Arrays.equals(left, right)) {
+                char[] numberOfCharacterRepetitions = list.get(j);
+                if (Arrays.equals(repeatingCharactersInStrings, numberOfCharacterRepetitions)) {
                     index.add(j);
                 }
             }
