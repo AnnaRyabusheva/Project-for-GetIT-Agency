@@ -1,11 +1,10 @@
-package fileForProject;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class MainClass {
+public class BaseClassForExercise {
+
     static String[] b = {"qwe", "wqe", "qwee", "a", "ewq", "a"};
 
     public static void main(String[] args) {
